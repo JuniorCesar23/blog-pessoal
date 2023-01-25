@@ -14,6 +14,7 @@
 
 <body>
 
+    <!-- HEADER  -->
     <header>
         <div>
             <h1>Júnior Oliveira</h1>
@@ -31,17 +32,40 @@
             </nav>
         </div>
     </header>
-    
+
+    <!-- MAIN -->
     <main>
-        <div id="div-apresentation">
+        <section id="section-apresentation">
             <h2>Seja muito bem-vindo ao meu blog pessoal</h1>
-            <p>Venha conhecer um pouco do meu mundo.</p>
-            <p>Tanto meu lado profissional quanto meu lado pessoal.</p>
-        </div>
+                <p>Venha conhecer um pouco do meu mundo.</p>
+                <p>Tanto meu lado profissional quanto meu lado pessoal.</p>
+        </section>
+        <section id="section-pessoal">
+            <div>
+                <img src="./imgs/foto-perfil.jpg" alt="Foto de perdil">
+            </div>
+            <div>
+                <h2>Vida particular</h2>
+                <p>
+                    Natural de Ourilândia do Norte, no estado do Pará.
+                    Tem como hobbies principais <strong>Ler</strong>, <strong>fazer caminhada</strong>
+                    e <strong>ouvir música</strong>.
+                </p>
+                <p>Algumas curiosidades:</p>
+                <ul>
+                    <li><strong>Comida preferida:</strong> Pizza.</li>
+                    <li><strong>Bebida preferida:</strong> Café.</li>
+                    <li><strong>Música preferida: </strong>November Rain - Guns N' Roses.</li>
+                    <li><strong>Livro preferido: </strong> Como fazer amigos e influenciar pessoas - Dale Carnigie.</li>
+                    <li><strong>Esporte preferido: </strong>Futebol.</li>
+                    <li><strong>Atividade física preferida: </strong>Caminhada.</li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <script>
-        $("#p-menu").click(function(){
+        $("#p-menu").click(function () {
             $("#div-nav").slideToggle(300);
         });
     </script>

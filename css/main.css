@@ -3,12 +3,58 @@ main {
     margin: 0;
 }
 
-#div-apresentation {
-    width: 100%;
+main #section-apresentation {
+    border-bottom: black 1px solid;
+    width: 90%;
+    margin: 25% auto 0;
     padding: 0;
     text-align: center;
-    font-size: 24px;
-    grid-column: 1/3;
+    font-size: 16px;
+}
+
+main #section-apresentation h2, p {
+    padding: 0 10px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+main #section-apresentation p {
+    padding: 0 10px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+/* SEÇÃO PESSOAL */
+main #section-pessoal {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    border-bottom: black 1px solid;
+}
+main #section-pessoal img {
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+main #section-pessoal div h2, p {
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+main #section-pessoal div ul {
+    margin: 0;
+    padding: 0 2px;
+}
+
+main #section-pessoal div ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* #div-apresentation {
